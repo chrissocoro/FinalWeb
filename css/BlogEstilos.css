@@ -1,0 +1,34 @@
+.blogPrincipal {
+    height: 400px;
+}
+
+#wrap-news {
+    width: 80%;
+    margin: 50px auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 300px 300px 300px 300px;
+}
+
+.wrap-img-news {
+    width: 100%;
+    height: 50%;
+    background: black;
+}
+
+.news {
+    font-size: small;
+    padding: 20px;
+    grid-row-end: span 2;
+}
+
+.noticia {
+    width: 100%;
+    height: 100%;
+}
+
+#btnNews {
+    margin-top: 15px;
+    margin-left: 150px;
+}
