@@ -1,0 +1,259 @@
+
+
+
+.mediaViewInfo {
+	--web-view-name: Noticias;
+	--web-view-id: Noticias;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Noticias;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Noticias {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Noticias;
+	--web-view-id: Noticias;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+/* -------------------------- Relacionado al header ------------------*/
+
+#Header {
+	background-color: rgba(39,39,39,1);
+	padding-left: 49px;
+	padding-right: 49px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+	height: 120px;
+}
+
+#Nav_Title {
+	display: flex;
+	padding-right: 40px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.5px;
+}
+
+#Nav_Pipe {
+	display: flex;
+	border-left: 4px solid rgb(255, 255, 255);
+    height: 30px;
+	padding-right: 40px;
+}
+
+#Nav_Message {
+	display: flex;
+	font-family: Josefin Sans;
+	font-size: 25px;
+	color: rgba(206,206,206,1);
+	text-transform: uppercase;
+}
+
+#Icons {
+	display: flex;
+	flex-direction: row;
+	margin-left: 300px;
+}
+
+.Nav_Icon {
+	display: flex;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+
+/* -------------------------- Relacionado al NavBar ------------------*/
+
+#Navbar {
+	background-color:#006FEF;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	overflow: visible;
+	height: 61px;
+}
+
+#Nav_Titles {
+	display: flex;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+
+#Nav_Text {
+	margin: 20px;
+	transition: font-size 1s;
+}
+
+#Nav_Text:hover {
+	font-size: 20px;
+}
+
+/* -------------------------- Relacionado al Contenido ------------------*/
+
+#WhiteSpace {
+	height: 60px;
+}
+
+#BlueSpace {
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	padding: 100px;
+	background-color: rgba(0, 112, 239, 0.08);
+}
+
+#Blue_Text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.button-3 {
+  appearance: none;
+  margin-right: 550px;
+  margin-left: 20px;
+  background-color: rgb(0, 112, 239);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:hover {
+  background-color: rgb(0, 63, 134);
+}
+
+
+/* ------- Noticia Central --------*/
+
+#NoticiaCentral {
+	display: flex;
+	justify-content: center;
+}
+
+#Img_Central {
+	height: 420px;
+}
+
+#Txt_Central {
+	position: absolute;
+	width: 1000px;
+	margin-top: 300px;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+/* ------- Titulos de Secciones --------*/
+
+#Titular {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+
+}
+
+#Titular_Pipe {
+	display: flex;
+	border-left: 4px solid#006FEF;
+    height: 25px;
+	padding-right: 40px;
+}
+
+#Txt_Titular {
+	display: flex;
+	font-family: Josefin Sans;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-right: 90px;
+}
+
+hr{
+	margin: 20px;
+	width: 800px;
+	height: 1px;
+}
+
+/* ------- Cards --------*/
+
+#Seccion_Noticias{
+	padding-right: 130px;
+	padding-left: 130px;
+
+}
+
+.image img{
+	width: 100%;
+}
+
+.title{
+	text-align: left;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #006FEF;
+	text-transform: uppercase;
+   }
+
+.des{
+	padding: 20px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-family: Josefin Sans;
+	font-size: 22px;
+	color: #707070;
+  }
+
+.card{
+	width: 30%;
+	display: inline-block;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+	margin: 1%;
+}
