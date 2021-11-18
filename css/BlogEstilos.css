@@ -1,5 +1,8 @@
+
+
 .blogPrincipal {
-    height: 400px;
+    height: 397.5px;
+    
 }
 
 #wrap-news {
@@ -31,4 +34,36 @@
 #btnNews {
     margin-top: 15px;
     margin-left: 150px;
+}
+
+.noti{
+    margin-left: 80px;
+}
+
+#menu-header{
+    background-color: #3A3939;   
+    padding: 30px;       
+} 
+
+.header{
+   
+    color: white;
+    font-size: 30px;
+}
+
+.header1{
+    
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#redes{
+    
+    margin-left: 90%;
+}
+
+#sub{
+    background:#1F52E5;
+    padding:20px;       
 }
