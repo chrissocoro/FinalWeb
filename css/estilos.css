@@ -108,6 +108,16 @@ body {
     text-align: center;
 }
 
+.about_container {
+    background-image: url('../imgenes/Segundo\ tramo.png');
+    width: 100%;
+    max-width: 1380px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgba(225, 250, 255, 0);
+    padding: var(--padding-container);
+}
+
 .about_paragrah {
     line-height: 1.7;
     text-align: left;
@@ -123,9 +133,9 @@ body {
 }
 
 .about_main {
-    padding-top: 80px;
+    padding-top: 90px;
     display: grid;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
@@ -193,4 +203,40 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+
+
+/*Card*/
+
+.card {
+    text-align: center;
+}
+
+.card_container {
+    background-image: url('../imgenes/44.jpg');
+    width: 100%;
+    max-width: 1380px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgba(225, 250, 255, 0);
+    padding: var(--padding-container);
+}
+
+.card_table {
+    padding-top: 90px;
+    display: grid;
+    width: 95%;
+    margin: auto;
+    gap: 2em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
+.card_elemen {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    width: 380px;
+    padding: 40px;
+    box-shadow: 3px 1px 1px rgba(17, 17, 17, 0.199);
 }
