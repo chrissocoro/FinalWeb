@@ -4,6 +4,134 @@
     --color-title: #001A49;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+.mediaViewInfo {
+	--web-view-name: Blog;
+	--web-view-id: Blog;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Blog;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Blog {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Noticias;
+	--web-view-id: Noticias;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+/* -------------------------- Relacionado al header ------------------*/
+
+#Header {
+	background-color: rgba(39,39,39,1);
+	padding-left: 49px;
+	padding-right: 49px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+	height: 120px;
+}
+
+#Nav_Title {
+	display: flex;
+	padding-right: 40px;
+	font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	letter-spacing: -0.5px;
+}
+
+#Nav_Pipe {
+	display: flex;
+	border-left: 4px solid rgb(255, 255, 255);
+    height: 30px;
+	padding-right: 40px;
+}
+
+#Nav_Message {
+	display: flex;
+	font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: rgba(206,206,206,1);
+	text-transform: uppercase;
+}
+
+#Icons {
+	display: flex;
+	flex-direction: row;
+	margin-left: 300px;
+}
+
+.Nav_Icon {
+	display: flex;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+
+/* -------------------------- Relacionado al NavBar ------------------*/
+
+#Navbar {
+	background-color:#006FEF;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	overflow: visible;
+	height: 61px;
+}
+
+#Nav_Titles {
+	display: flex;
+    padding-top: 20px;
+	font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+
+#Nav_Text {
+	margin: 20px;
+	transition: font-size 1s;
+    text-decoration: none;
+}
+
+#Nav_Text:hover {
+	font-size: 20px;
+}
+
+/* -------------------------- Relacionado al Contenido ------------------*/
+
+#WhiteSpace {
+	height: 60px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }

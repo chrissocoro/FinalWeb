@@ -9,6 +9,11 @@
 :root {
 	--web-view-ids: Noticias;
 }
+a:link, a:visited, a:active {
+    
+    text-decoration:none;
+    color: white;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -97,6 +102,7 @@
 
 #Nav_Titles {
 	display: flex;
+	padding-top: 20px;
 	font-family: Josefin Sans, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 18px;
